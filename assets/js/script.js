@@ -37,11 +37,9 @@ window.addEventListener('DOMContentLoaded', () => {
         toggle.addEventListener("click", () => {
             nav.classList.toggle("active");
         });
-    } else {
-        console.warn('Elemento #menu-toggle ou #nav não encontrado.');
     }
 
-    const downloadLink = document.getElementById('downloadLink');
+    const downloadLink = document.querySelector('.btn-download');
     const mobileAlert = document.getElementById('mobileAlert');
 
     function isMobile() {
@@ -51,7 +49,17 @@ window.addEventListener('DOMContentLoaded', () => {
     if (isMobile() && downloadLink && mobileAlert) {
         downloadLink.addEventListener('click', function (e) {
             e.preventDefault();
-            mobileAlert.style.display = 'block';
+
+            mobileAlert.classList.add('show');
+            setTimeout(() => {
+                mobileAlert.style.opacity = '0';
+            }, 5000);
+
+            setTimeout(() => {
+                mobileAlert.classList.remove('show');
+                mobileAlert.style.opacity = '';
+            }, 5500);
         });
     }
 });
+
