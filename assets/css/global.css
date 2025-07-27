@@ -67,6 +67,18 @@ body {
     text-shadow: 1px 1px 5px black;
 }
 
+.conteudohelp {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+
 .rain {
     position: absolute;
     top: 0;
@@ -338,6 +350,11 @@ body {
     }
 
     .conteudo {
+        margin: 2rem;
+        padding: 2rem;
+    }
+
+    .conteudohelp {
         margin: 2rem;
         padding: 2rem;
     }
