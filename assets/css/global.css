@@ -67,18 +67,6 @@ body {
     text-shadow: 1px 1px 5px black;
 }
 
-.conteudohelp {
-    position: relative;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: white;
-    text-shadow: 1px 1px 5px black;
-}
-
 .rain {
     position: absolute;
     top: 0;
@@ -269,16 +257,6 @@ body {
     font-size: 0.95rem;
 }
 
-.second {
-    width: 100vw;
-    height: 100vh;
-    padding: 4rem 2rem;
-    display: flex;
-    flex-direction: column;
-    gap: 4rem;
-    background-color: #121212;
-}
-
 .help-box {
     display: flex;
     align-items: center;
@@ -350,11 +328,6 @@ body {
     }
 
     .conteudo {
-        margin: 2rem;
-        padding: 2rem;
-    }
-
-    .conteudohelp {
         margin: 2rem;
         padding: 2rem;
     }
