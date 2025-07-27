@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="shortcut icon" href="assets/img/Logo Mine brothers sem fundo.png">
     <title>Mine Brothers</title>
 </head>
 
@@ -21,20 +22,19 @@
         </div>
 
         <nav class="nav-links" id="nav">
-            <a href="#">Início</a>
-            <a href="#">Baixar</a>
-            <a href="#">Recursos</a>
-            <a href="#">Suporte</a>
+            <a href="#inicio">Início</a>
+            <a href="#suporte">Suporte</a>
         </nav>
     </header>
 
 
-    <section class="one">
+    <section class="one" id="inicio">
         <div class="conteudo">
             <main class="hero">
                 <h1>Eleve sua Experiência no Minecraft</h1>
                 <p>Desfrute de melhor FPS, mods integrados e muito mais com nosso servidor customizado</p>
-                <a href="#"><button class="btn-download">Baixar Arquivos do Servidor</button></a>
+                <a href="https://www.mediafire.com/file/jqvl2uic8ap0trd/Mine+Brothers+Assets.rar/file"><button
+                        class="btn-download">Baixar Arquivos do Servidor</button></a>
 
                 <div id="mobileAlert"
                     style="display: none; padding: 1rem; background: #ff4444; color: white; margin-top: 1rem; border-radius: 0.5rem;">
@@ -63,16 +63,63 @@
         <div class="rain"></div>
     </section>
 
-    <section class="second">
-        <div class="conteudo">
+    <section class="second" id="suporte">
+        <div class="conteudohelp">
             <div class="help-box">
                 <div class="help-text">
-                    <h3>Como instalar os arquivos</h3>
-                    <p>Faça o download dos arquivos do servidor e extraia na pasta `.minecraft`. Depois, inicie o jogo
-                        normalmente.</p>
+                    <h3>Minecraft Launcher</h3>
+                    <p>No seu launcher do minecraft você vai ter que criar um
+                        perfil, Com o Minecraft na Versão: <span>1.20.1</span>, Forge na Versão:
+                        <span>1.20.1</span>, Com o ModLoader na opção: <span>47.4.4</span>, isso independente do
+                        Launcher
+                        que você usar, <warning style="color: yellow;">OBS: E bom desativar opções de launcher que
+                            integra sistema de skins,
+                            fique tranquilo nosso servidor tem um sistema de skin !</warning> Depois inicie o jogo
+                        normalmente
+                        espere ele aparecer no menu principal do jogo e Depois
+                        feche.
+                    </p>
                 </div>
                 <div class="help-img">
-                    <img src="images/install-help.png" alt="Ajuda Instalação">
+                    <img src="assets/img/versão.png" alt="Minecraft Launcher">
+                </div>
+            </div>
+
+            <div class="help-box reverse">
+                <div class="help-text">
+                    <h3>Baixe os Arquivos do Servidor</h3>
+                    <ul>
+                        <li><span>1.</span> Faça o download dos arquivos do servidor No inicio da Página.
+                        <li><span>2.</span>Extraia os arquivos na area de trabalho.</li>
+                        <li><span>3.</span> aperte win+r escreva <span>%appdata%</span>, abra a pasta .minecraft, dentro
+                            dela coloque as pastas <span>resourcepacks</span> e <span>shaderpacks</span>.</li>
+                        <li><span>4.</span> Agora você vai no seu launcher procurar a pasta mods da versão que você crio
+                            e colocar dentro dela os arquivos que estão dentro da pasta <span>mods</span> que você fez o
+                            download.</li>
+                        <li><span>5.</span> Inicie o minecraft normalmente, se der algum <span>error</span>
+                            provavelmente você fez algo errado.</li>
+                    </ul>
+                </div>
+                <div class="help-img">
+                    <img src="assets/img/download.png" alt="download">
+                </div>
+            </div>
+
+            <div class="help-box">
+                <div class="help-text">
+                    <h3>Como Conectar no Servidor</h3>
+                    <ul>
+                        <li><span>1.</span> No menu principal do minecraft click no botão <span>Multijogador</span>.
+                        <li><span>2.</span> Depois click no botão <span>adicionar servidor</span>.</li>
+                        <li><span>3.</span> Coloque na caixa Nomo do Servidor: <span>Mine Brothers</span>.</li>
+                        <li><span>4.</span> Copie esse ip: <span>178.132.198.178:25565</span> e cole na caixa
+                            <span>Endereço</span>.
+                        </li>
+                        <li><span>5.</span> Depois so connectar no servidor !</li>
+                    </ul>
+                </div>
+                <div class="help-img">
+                    <img src="assets/img/multiplayer.png" alt="conexão servidor">
                 </div>
             </div>
 
@@ -81,10 +128,11 @@
                     <h3>Erro de conexão?</h3>
                     <p>Verifique se o IP do servidor está correto e se sua internet está funcionando. Nossa equipe
                         também
-                        pode ajudar no Discord.</p>
+                        pode ajudar no <span>Discord</span>: <a
+                            href="https://discord.gg/mxGBvZQEZf">https://discord.gg/mxGBvZQEZf</a></p>
                 </div>
                 <div class="help-img">
-                    <img src="images/connection-help.png" alt="Erro de conexão">
+                    <img src="assets/img/bannergif.gif" alt="Erro de conexão">
                 </div>
             </div>
         </div>
@@ -92,7 +140,8 @@
 
 
     <footer style="color: snow; font-weight: bolder;">
-        &copy; 2025 Mine Brothers. All rights reserved.
+        &copy; 2025 Mine Brothers. All rights reserved. Desenvolvedor <span style="color: #00ffff;">Guilherme
+            Teixeira</span>
     </footer>
 
     <script src="assets/js/script.js"></script>

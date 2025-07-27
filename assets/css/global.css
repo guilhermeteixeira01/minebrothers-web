@@ -264,6 +264,7 @@ body {
     gap: 2rem;
     flex-direction: row;
     flex-wrap: wrap;
+    padding-bottom: 4rem;
 }
 
 .help-box.reverse {
@@ -281,10 +282,26 @@ body {
     margin-bottom: 1rem;
 }
 
+.help-text li {
+    text-decoration: none;
+
+    & span {
+        color: #00ff6a;
+    }
+}
+
 .help-text p {
     font-size: 1rem;
     line-height: 1.6;
     color: #ccc;
+
+    & span {
+        color: #00ff6a;
+    }
+
+    & a {
+        color: #00ffff;
+    }
 }
 
 .help-img {
@@ -297,6 +314,10 @@ body {
     max-width: 400px;
     border-radius: 0.75rem;
     box-shadow: 0 0 20px rgba(0, 255, 106, 0.2);
+}
+
+.conteudohelp {
+    margin: 10rem;
 }
 
 @media (max-width: 768px) {
@@ -330,5 +351,18 @@ body {
     .conteudo {
         margin: 2rem;
         padding: 2rem;
+    }
+
+    .conteudohelp {
+        margin: 1rem;
+    }
+
+    .help-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .help-box.reverse {
+        flex-direction: column;
     }
 }
