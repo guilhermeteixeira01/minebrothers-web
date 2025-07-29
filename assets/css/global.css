@@ -267,7 +267,7 @@ body {
     gap: 2rem;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 4rem;
+    padding-bottom: 10rem;
 }
 
 .help-box.reverse {
@@ -369,12 +369,13 @@ body {
     }
 
     .conteudohelp {
-        margin: 1rem;
+        margin: 1.5rem;
     }
 
     .help-box {
         display: flex;
         flex-direction: column;
+        padding-bottom: 5rem;
     }
 
     .help-box.reverse {
