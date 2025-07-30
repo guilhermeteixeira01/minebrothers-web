@@ -2,6 +2,15 @@
 @import url('header.css');
 @import url('footer.css');
 
+::-webkit-scrollbar {
+    background: linear-gradient(to top, black, rgb(85, 85, 85), black);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(280deg, #00c6ff, #00ff6a);
+    border-radius: 50px;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
