@@ -56,3 +56,9 @@ Este site foi construído com:
 ---
 
 ## 📸 Screenshots
+
+<p align="center">
+ <img width="49%" alt="image" src="https://github.com/user-attachments/assets/e0857606-0091-4c34-9d7a-23a3f119d67a" />
+ <img width="49%" alt="image" src="https://github.com/user-attachments/assets/b4760d3c-b931-47f8-8e0f-d3dd72d95487" />
+</p>
+
